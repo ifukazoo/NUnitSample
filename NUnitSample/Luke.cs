@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace NUnitSample
 {
-    class Program
+    public class Luke
     {
-        public int Add(int a,int b)
+        public int Div(int dividend, int divisor)
         {
-            return a + b;
+            return dividend / divisor;
         }
-
-        static void Main(string[] args)
+        public void Boom()
         {
+            throw new NotSupportedException();
         }
     }
 }
