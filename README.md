@@ -8,10 +8,10 @@ NUnitのサンプル
 
 ## テスト実行環境の作成
 1. ツール -> NUGetパッケージマネージャー -> パッケージマネージャーコンソール
-1. PM> Install Package NUnit
-1. PM> Install Package NUnit.ConsoleRunner
-1. PM> Install Package OpenCover
-1. PM> Install Package ReportGenerator
+1. PM> Install-Package NUnit
+1. PM> Install-Package NUnit.ConsoleRunner
+1. PM> Install-Package OpenCover
+1. PM> Install-Package ReportGenerator
 
 ## テスト実行レポートの作成
 1. プロジェクト添付のCoverageTest.batを実行
